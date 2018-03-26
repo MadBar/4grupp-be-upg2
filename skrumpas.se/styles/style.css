@@ -1,0 +1,145 @@
+/*import font */
+/*-------*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+
+
+/*Body */
+/*-------*/
+body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('../images/dog-3059346_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*Utsende av den container där all info finns*/
+/*-------*/
+.container{
+    padding-top: 0px;
+}
+.navbar{ 
+    margin-bottom:1em;
+    padding:0px;
+}
+.navbar-dark{
+    background-color:grey;
+}
+.my a{
+    color:white !important;
+}
+.my a:hover{
+    color:rgb(206, 206, 206) !important;
+    text-decoration: underline;
+}
+
+
+.jumbotron{
+    box-shadow: 6px 6px 8px #131212;
+    text-align: center;
+    min-height: 700px;
+}
+
+.jumbotron p{
+    color:black;
+    margin: 1em;
+    font-size: 0.8em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Text tagar*/
+/*-------*/
+/*Gruppering för h1 och h2 */
+h1,h2{
+    color: #1894d2;
+    font-family: 'Work Sans', cursive;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2.0em;
+}
+
+h3{
+    color:black;
+    font-size: 1.8em;
+    font-family: 'Work Sans', cursive;
+}
+a{
+    color: rgb(221, 221, 221) !important;
+}
+a:hover{
+    color:rgb(206, 206, 206) !important;
+    text-decoration: underline;
+}
+.text-format{
+    min-height:120px;
+}
+
+.div-margin{
+    margin-bottom:20px;
+}
+
+
+
+/*Formulär*/
+/*-------*/
+.submitdiv{
+    text-align: right;
+    margin-top:1em;
+}
+.form-control{
+    margin: 0.2em 0em 0.2em 0em;
+}
+label{
+    margin: 0.2em 0em 0.2em 0em;
+}
+
+.form-group{
+    text-align: left;
+    margin: 2em 3em 2em 3em;
+}
+
+/*Bild*/
+/*-------*/
+img{
+    margin-bottom: 3em; 
+    max-width: 288px;
+    max-height: 163px;
+}
+.logo{
+    max-width:80px;
+    max-height:80px;
+    margin-bottom:0px;
+    margin-right:15px;
+}
+
+
+
+/*sidfot*/
+/*-------*/
+footer {
+    background-color: grey;
+    color: #ddd;
+    padding: 10px;
+    margin: 1em;
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    margin: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+
+
+
